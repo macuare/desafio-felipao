@@ -16,7 +16,7 @@ Dio estudante 2024
 
 ## Desafios
 #### Contém todas as descrições de cada um dos desafios.
-```http
+```https://github.com/macuare/desafio-felipao/blob/main/desafio.md
   desafio.md
 ```
 ### 1️⃣ Desafio Classificador de nível de Herói
