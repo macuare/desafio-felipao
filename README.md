@@ -19,5 +19,5 @@ Dio estudante 2024
 ```https://github.com/macuare/desafio-felipao/blob/main/desafio.md
   desafio.md
 ```
-### 1️⃣ Desafio Classificador de nível de Herói
-### 2️⃣ Calculadora de partidas Rankeadas
+### [1️⃣ Desafio Classificador de nível de Herói](https://github.com/macuare/desafio-felipao/blob/main/src/Desafio_1.js)
+### [2️⃣ Calculadora de partidas Rankeadas](https://github.com/macuare/desafio-felipao/blob/main/src/Desafio_2.js)
