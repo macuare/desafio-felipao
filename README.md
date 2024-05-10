@@ -12,7 +12,7 @@ Dio estudante 2024
 |Pasta|Descrição|
 |-|-|
 |practicas|Usado para realizar codificação de práticas. Desafios locais|
-|src|Contém a pasta prática e os desafios reais.|
+|desafios|Contém os arquivos com desafios reais e sua descrição.|
 
 ## Desafios
 #### Contém todas as descrições de cada um dos desafios.
