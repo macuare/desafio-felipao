@@ -15,5 +15,9 @@ Dio estudante 2024
 |src|Contém a pasta prática e os desafios reais.|
 
 ## Desafios
+#### Contém todas as descrições de cada um dos desafios.
+```http
+  desafio.md
+```
 ### 1️⃣ Desafio Classificador de nível de Herói
 ### 2️⃣ Calculadora de partidas Rankeadas
