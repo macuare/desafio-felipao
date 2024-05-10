@@ -30,6 +30,9 @@ for (let indice in niveles) {
         break;
     }
 }
-
+let item = inventario.find(item => item.nome === nome);
+votos.forEach(voto => {
+    contagemVotos[voto] = (contagemVotos[voto] || 0) + 1;
+});
 
 console.log(mensaje.replace("{nombreHeroe}", nombreDelHeroe).replace("{nivel}", nombreCategoria));

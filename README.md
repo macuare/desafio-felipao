@@ -13,3 +13,7 @@ Dio estudante 2024
 |-|-|
 |practicas|Usado para realizar codificação de práticas. Desafios locais|
 |src|Contém a pasta prática e os desafios reais.|
+
+## Desafios
+### 1️⃣ Desafio Classificador de nível de Herói
+### 2️⃣ Calculadora de partidas Rankeadas
