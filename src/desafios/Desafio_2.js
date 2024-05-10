@@ -1,6 +1,9 @@
 // Constantes de pruebas
-const victorias = 150;
-const derrotas = 10;
+const jugadores = [
+    {"nombre" : "Juan", "victorias" : 89, "derrotas" : 21},
+    {"nombre" : "Alicia", "victorias" : 36, "derrotas" : 55},
+    {"nombre" : "Andy", "victorias" : 150, "derrotas" : 10}
+];
 
 // Desde aqui inicia el desafio.
 const mensaje = "O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}";
@@ -30,7 +33,12 @@ function calculandoRankingJugador(derrotas, victorias) {
     rankingJugador = victorias - derrotas;
 }
 
-calculandoRankingJugador(derrotas, victorias);
-posicionJugador(rankingJugador);
 
-console.log(mensaje.replace("{saldoVitorias}", rankingJugador).replace("{nivel}", nivelJugador))
+for(let indice = 0; indice < jugadores.length; indice++) {
+    let jugador = jugadores[indice];
+
+    calculandoRankingJugador(jugador.derrotas, jugador.victorias);
+    posicionJugador(rankingJugador);
+
+    console.log(mensaje.replace("{saldoVitorias}", rankingJugador).replace("{nivel}", nivelJugador));
+}
